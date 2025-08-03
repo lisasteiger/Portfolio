@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style/main.css" />
+    <title>Portfolio | Lisa Steiger</title>
+  </head>
+  <body>
+    <div id="navibereich">
+      <ul>
+        <br />
+        <li id="navigation"><a href="LOOP.html">LOOP4YOU</a></li>
+        <br />
+        <li id="navigation"><a href="zsc.html">Zürcher Segel Club</a></li>
+        <br />
+        <li id="navigation"><a href="KBV4.html">Kein Bier vor 4</a></li>
+        <br />
+        <li id="navigation"><a href="XTREM.html">Xtreme Run Herisau</a></li>
+        <br />
+        <li id="navigation"><a href="sticky.html">Stick To Your Goals</a></li>
+        <br />
+        <li id="navigation">
+          <a href="Reclam.html">Programmvorschau Reclam</a>
+        </li>
+        <br />
+        <li id="navigation">
+          <a href="NHB.html">Nachhaltigkeitsbericht ZHdK 24</a>
+        </li>
+        <br />
+        <li id="navigation"><a href="lasslos.html">LASS LOS</a></li>
+      </ul>
+    </div>
+
+    <div class="about">
+      <a href="uebermich.html">über mich</a>
+    </div>
+
+    <div class="kontakt">
+      <a href="mailto:lisa_steiger@hotmail.com">Kontakt</a>
+    </div>
+
+    <div class="grid">
+      <div class="cell"><img /></div>
+      <div class="cell"><img /></div>
+      <div class="cell"><img /></div>
+      <div class="cell"><img /></div>
+    </div>
+
+    <!-- Projekt LOOP-->
+    <div class="image-pool">
+      <a href="LOOP.html" target="_self">
+        <img
+          src="assets/LOOP/Portfolio_Lisa_Steiger_LOOP4YOU_1.jpg"
+          data-project="projektA"
+        />
+      </a>
+
+      <a href="projektA.html" target="_self">
+        <img
+          src="assets/LOOP/Portfolio_Lisa_Steiger_LOOP4YOU_19.jpg"
+          data-project="projektA"
+        />
+      </a>
+      <a href="projektA.html" target="_self">
+        <img
+          src="assets/LOOP/Portfolio_Lisa_Steiger_LOOP4YOU_12.gif"
+          data-project="projektA"
+        />
+      </a>
+
+      <!-- Projekt STICKY -->
+      <img
+        src="assets/STICKY/Portfolio_Lisa_Steiger_Stickyfont_01.jpg"
+        data-project="projektB"
+      />
+      <img
+        src="assets/STICKY/Portfolio_Lisa_Steiger_Stickyfont_08.jpg"
+        data-project="projektB"
+      />
+      <img
+        src="assets/STICKY/Portfolio_Lisa_Steiger_Stickyfont_14.jpg"
+        data-project="projektB"
+      />
+      <img
+        src="assets/STICKY/Portfolio_Lisa_Steiger_Stickyfont_18.jpg"
+        data-project="projektB"
+      />
+
+      <img
+        src="assets/STICKY/Portfolio_Lisa_Steiger_Stickyfont_19.jpg"
+        data-project="projektB"
+      />
+
+      <!-- Projek XRUN -->
+      <img
+        src="assets/Xrun/Portfolio_Lisa_Steiger_Xtreme_run_01.jpg"
+        data-project="projektC"
+      />
+      <img
+        src="assets/Xrun/Portfolio_Lisa_Steiger_Xtreme_run_03.jpg"
+        data-project="projektC"
+      />
+
+      <!-- Projekt MENGENTEXT -->
+      <img
+        src="assets/Mengentext/Portfolio_Lisa_Steiger_Mengentext_21.jpg"
+        data-project="projektD"
+      />
+      <img
+        src="assets/Mengentext/Portfolio_Lisa_Steiger_Mengentext_22.jpg"
+        data-project="projektD"
+      />
+      <!-- Projekt ZSC -->
+      <img
+        src="assets/ZSC/Portfolio_Lisa_Steiger_ZSC_01.jpg"
+        data-project="projektE"
+      />
+      <img
+        src="assets/ZSC/Portfolio_Lisa_Steiger_ZSC_02.jpg"
+        data-project="projektE"
+      />
+      <img
+        src="assets/ZSC/Portfolio_Lisa_Steiger_ZSC_04.jpg"
+        data-project="projektE"
+      />
+
+      <!-- Projekt LASSLOS -->
+      <img
+        src="assets/Urin/Portfolio_Lisa_Steiger_Lass_Los_17.jpg"
+        data-project="projektF"
+      />
+      <img
+        src="assets/Urin/Portfolio_Lisa_Steiger_Lass_Los_18.jpg"
+        data-project="projektF"
+      />
+
+      <!-- Projekt NHB -->
+      <img
+        src="assets/NHB/Portfolio_Lisa_Steiger_NHB_7.jpg"
+        data-project="projektG"
+      />
+
+      <img
+        src="assets/NHB/Portfolio_Lisa_Steiger_NHB_8.jpg"
+        data-project="projektG"
+      />
+
+      <!-- Projekt KBV4 -->
+
+      <img
+        src="assets/Biervor4/Portfolio_Lisa_Steiger_KBV4_1.jpg"
+        data-project="projektH"
+      />
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
