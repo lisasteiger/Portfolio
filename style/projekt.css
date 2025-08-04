@@ -140,7 +140,7 @@ img.special-image {
     text-shadow: 0 0 30px rgba(30, 30, 30, 0.6);
   }
 
-  .about a {
+  .zurueck a {
     position: fixed;
     z-index: 10;
     color: white;
@@ -152,7 +152,7 @@ img.special-image {
     text-shadow: 0 0 30px rgba(30, 30, 30, 0.7);
   }
 
-  .kontakt a {
+  .text a {
     position: fixed;
     z-index: 10;
     color: white;
