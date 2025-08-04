@@ -96,6 +96,12 @@ body {
 }
 
 @media (max-width: 430px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr); /* 4 Bilder untereinander */
+    height: auto; /* damit es auf mobilen Geräten nicht abgeschnitten wird */
+  }
+
   .cell {
     height: 50vh; /* oder auto, je nach gewünschtem Verhalten */
   }
@@ -115,25 +121,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-align: center;
-    line-height: 0.7;
+    line-height: 0.55;
     padding: 0;
     margin: 0;
-        mix-blend-mode: difference;
   }
 
-  .text {
-    position: fixed;
-    z-index: 10;
-    color: white;
-    font-size: 1em;
-
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+  #navibereich a {
+    text-shadow: 0 0 30px rgba(30, 30, 30, 0.6);
   }
-  .zurueck a {
+
+  .about a {
     position: fixed;
     z-index: 10;
     color: white;
@@ -142,7 +141,9 @@ body {
     top: 0.4em;
     width: 100%;
     text-align: center;
+    text-shadow: 0 0 30px rgba(30, 30, 30, 0.7);
   }
+
   .kontakt a {
     position: fixed;
     z-index: 10;
@@ -152,14 +153,6 @@ body {
     bottom: 0.5em;
     width: 100%;
     text-align: center;
-  }
-  .fullscreen {
-    height: auto;
-  }
-
-  .fullscreen img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
   }
 }
