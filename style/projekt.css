@@ -161,6 +161,6 @@ img.special-image {
     bottom: 0.5em;
     width: 100%;
     text-align: center;
-    text-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 0 30px rgba(30, 30, 30, 0.7);
   }
 }
