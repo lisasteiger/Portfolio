@@ -187,13 +187,17 @@ textarea::placeholder {
   top: 0.4em;
   width: 100%;
   text-align: center;
+  font-family: "Arizona", sans-serif;
+  font-style: normal;
 }
 
 .about a:hover {
   color: grey;
-  font-size: 1.2em;
   text-decoration: none;
+  font-family: "Arizona", sans-serif;
+  font-style: normal;
 }
+
 /*
 
 textarea {
