@@ -157,22 +157,23 @@ textarea::placeholder {
 @keyframes bottomIntro {
   0% {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(0.8);
   }
 
   25% {
-    transform: scale(1.8);
+    transform: scale(1.1);
   }
 
   50% {
-    transform: scale(1);
+    transform: scale(0.8);
   }
 
   75% {
-    transform: scale(1.8);
+    transform: scale(1.1);
   }
 
   100% {
+    transform: scale(0.8);
     opacity: 1;
   }
 }
