@@ -178,6 +178,22 @@ textarea::placeholder {
   }
 }
 
+.about a {
+  position: fixed;
+  z-index: 10;
+  color: rgb(0, 0, 0);
+  font-size: 0.8em;
+  text-decoration: none;
+  top: 0.4em;
+  width: 100%;
+  text-align: center;
+}
+
+.about a:hover {
+  color: grey;
+  font-size: 1.2em;
+  text-decoration: none;
+}
 /*
 
 textarea {
